@@ -1,11 +1,10 @@
 
-
 ### Quick Start
 
 0. Install [Node.js](http://nodejs.org/) and NPM 
 
 
-1. Install global dependencies `yo`, `bower` and `compass` (remove "sudo" if your account already has the permissions to install software):
+1. Install global dependencies `yo`, `bower`  (remove "sudo" if your account already has the permissions to install software):
 
     ```bash
     $ sudo npm install -g yo bower
