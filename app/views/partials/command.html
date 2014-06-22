@@ -1,0 +1,25 @@
+<div class="row marketing">
+
+    <div class="col-md-12">
+    	<h2>{{name}}<h2>
+    	<h4>{{info}}<h4>
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Command</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="c in commands">
+                <td>
+                    <h4>{{c.command}}</h4>
+                </td>
+                <td>{{c.description}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

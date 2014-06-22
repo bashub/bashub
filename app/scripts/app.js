@@ -12,6 +12,10 @@ angular.module('bashubApp', [
         templateUrl: 'partials/main',
         controller: 'MainCtrl'
       })
+      .when('/command/:command',{
+      	templateUrl: 'partials/command',
+	controller: 'CommandCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
