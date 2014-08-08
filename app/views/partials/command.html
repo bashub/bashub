@@ -13,12 +13,14 @@
             <tbody>
             <tr ng-repeat="c in commands">
                 <td>
-                    <h4>{{c.command}}</h4>
+                    <h4><input type="text" ng-model="c.command" placeholder="Command Expression"/> </h4>
                 </td>
-                <td>{{c.description}}</td>
+                <td><input type="text" ng-model="c.description" placeholder="Command Description" /> </td>
             </tr>
+	    <tr><td colspan="2" > <button ng-click="addCommand()">Add</button>
             </tbody>
         </table>
+	<button ng-click="save()">save</button>
     </div>
 </div>
 

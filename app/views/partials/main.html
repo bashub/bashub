@@ -5,20 +5,17 @@
             <thead>
             <tr>
                 <th>Command</th>
-                <th>Synopsys</th>
             </tr>
             </thead>
             <tbody>
             <tr ng-repeat="c in commands">
                 <td>
                     <h4><a href="#/command/{{c.name}}">{{c.name}}</a></h4>
-
-                    <p>{{c.info}}</p>
                 </td>
-                <td>{{c.synopsis}}</td>
             </tr>
             </tbody>
         </table>
+	<input type="text" ng-model="newcommand" /> <a href="#/command/{{newcommand}}" >new</a>
     </div>
 </div>
 
